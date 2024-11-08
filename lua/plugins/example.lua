@@ -54,6 +54,8 @@ return {
     },
     -- change some options
     opts = {
+      { import = "LazyVim.plugins.extras.lang.json" },
+      { import = "LazyVim.plugins.extras.lang.typescript" },
       defaults = {
         layout_strategy = "horizontal",
         layout_config = { prompt_position = "top" },
