@@ -23,11 +23,6 @@ return {
           show_hidden = true,
         },
       })
-      -- Open parent directory in current window
-      vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
-
-      -- Open parent directory in floating window
-      vim.keymap.set("n", "<leader>2", require("oil").toggle_float, { desc = "Open toggle directory" })
     end,
   },
 }
