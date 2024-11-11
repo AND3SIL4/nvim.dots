@@ -1,3 +1,5 @@
+-- This file contains the main configuration for nvim pluggin
+
 return {
   "folke/which-key.nvim",
   event = "VeryLazy",

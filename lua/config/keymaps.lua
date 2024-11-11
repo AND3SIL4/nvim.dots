@@ -7,3 +7,11 @@ vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 -- Open parent directory in floating window
 vim.keymap.set("n", "<leader>2", require("oil").toggle_float, { desc = "Open toggle directory" })
+
+-- Delete all buffers but the current one
+vim.keymap.set(
+  "n",
+  "<leader>bq",
+  '<Esc>:%bdelete|edit #|normal`"<Return>',
+  { desc = "Delete other buffers but the current one" }
+)

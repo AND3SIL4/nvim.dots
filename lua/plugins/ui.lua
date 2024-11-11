@@ -1,3 +1,5 @@
+-- This file contains the main configuration for visual plugins in Neovim
+
 return {
   {
     "folke/noice.nvim",
