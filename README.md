@@ -1,13 +1,15 @@
-# 💤 LazyVim
+# 💤 LazyVim custom configuration
+
+## Install additional tools for a better experience
 
 ```bash
+# Install live server local to test the HTML documents
 npm install -g live-server
 
-  brew install ripgrep
+# Install rip grep using home brew to make searches deeply
+brew install ripgrep
 ```
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+---
 
-This repo was updated on november 07, 2024 by [Felipe Silva](https://github.com/and3sil4)
-This repo was updated on november 07, 2024 by [Felipe Silva](https://github.com/and3sil4)
+**last updated on november 26**
