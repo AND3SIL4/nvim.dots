@@ -8,6 +8,9 @@ npm install -g live-server
 
 # Install rip grep using home brew to make searches deeply
 brew install ripgrep
+
+# Install xclip to allow copy in clipboard from linux shell
+sudo apt install xclip
 ```
 
 ---
