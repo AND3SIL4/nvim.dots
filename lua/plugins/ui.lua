@@ -14,14 +14,14 @@ return {
           lsp_doc_border = true, -- Enable LSP documentation border
         },
         -- Uncomment the following lines to customize the cmdline popup view
-        -- views = {
-        --   cmdline_popup = {
-        --     filter_options = {},
-        --     win_options = {
-        --       winhighlight = "NormalFloat:NormalFloat,FloatBorder:FloatBorder",
-        --     },
-        --   },
-        -- },
+        views = {
+          cmdline_popup = {
+            filter_options = {},
+            win_options = {
+              winhighlight = "NormalFloat:NormalFloat,FloatBorder:FloatBorder",
+            },
+          },
+        },
       })
     end,
   },
