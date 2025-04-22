@@ -122,6 +122,7 @@ return {
         "javascript",
         "json",
         "lua",
+        "sql",
         "markdown",
         "markdown_inline",
         "python",
