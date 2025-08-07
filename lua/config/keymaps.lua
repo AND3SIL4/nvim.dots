@@ -13,6 +13,7 @@ vim.keymap.set("i", "<C-b>", "<C-o>de")
 
 -- Map Ctrl+c to escape from other modes
 vim.keymap.set({ "i", "n", "v" }, "<C-c>", [[<C-\><C-n>]])
+vim.keymap.set({ "n" }, "<leader>cp", "gg<S-v>G")
 
 -- Screen Keys
 vim.keymap.set({ "n" }, "<leader>uk", "<cmd>Screenkey<CR>")
